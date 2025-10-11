@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['tomato_bacterial_blight', 'tomato_leaves', 'tomato_yellow_leaf_curl_virus']
+
+roboflow:
+  workspace: masked-pi
+  project: tomato-onfvb
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/masked-pi/tomato-onfvb/dataset/1
